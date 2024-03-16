@@ -1,0 +1,658 @@
+{
+	"archiveVersion": "1",
+	"classes": {},
+	"objectVersion": "54",
+	"objects": {
+		"025DB439-76B7-46FA-A642-3F295EB8A85F": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxRtMidiOut.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/desktop/ofxRtMidiOut.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"0B6D922C-DD1B-478C-82A9-7E9C19DA8267": {
+			"fileRef": "538849F2-17B1-46A0-8C1D-D127850F90D6",
+			"isa": "PBXBuildFile"
+		},
+		"191CD6FA2847E21E0085CBB6": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.entitlements",
+			"path": "of.entitlements",
+			"sourceTree": "<group>"
+		},
+		"191EF70929D778A400F35F26": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "folder",
+			"name": "openFrameworks",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/libs/openFrameworks",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"19B789C429E5AB4A0082E9B8": {
+			"buildActionMask": "2147483647",
+			"files": [],
+			"inputFileListPaths": [],
+			"inputPaths": [],
+			"isa": "PBXShellScriptBuildPhase",
+			"outputFileListPaths": [],
+			"outputPaths": [],
+			"runOnlyForDeploymentPostprocessing": "0",
+			"shellPath": "/bin/sh",
+			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
+			"showEnvVarsInLog": "0"
+		},
+		"1B901502-D2D9-40BC-BAA5-50A350BA867D": {
+			"fileRef": "6DCFC099-5D2A-4634-BB6A-E23A4BE8667B",
+			"isa": "PBXBuildFile"
+		},
+		"1DD9A045-D61D-464C-B9EF-019BA937CF9E": {
+			"children": [
+				"A751FC38-788E-4E92-AC1C-16D321F1C0A8"
+			],
+			"isa": "PBXGroup",
+			"name": "frameworks",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"20B149E1-DFF2-4B25-8144-BB7F84717886": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiOut.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiOut.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"22DACCCF-6009-4BAC-95C4-BF109CDFA44D": {
+			"children": [
+				"8A2CBC95-C08E-453E-8726-ABFEA49D574B"
+			],
+			"isa": "PBXGroup",
+			"name": "libs",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"29DA6BA4-1F78-409A-8E51-C8FFFF4185BD": {
+			"children": [
+				"3067DB0A-21A2-47FA-802F-49AC686942DC",
+				"7D43692D-6E57-49FD-9A38-B9A0E9600092",
+				"960D1F22-7B5C-497B-A25A-5BDE19141FDA",
+				"96FECBCD-3F9A-47E4-A235-56DEAC690F4D",
+				"FFFCAC83-CF73-4718-AD4B-83371EB24A13",
+				"6DCFC099-5D2A-4634-BB6A-E23A4BE8667B",
+				"8A4D874F-D8D1-48F7-AE03-019DFCB880E4",
+				"4AAE79DB-9B32-4572-83F7-F0FBF3EB5AB5",
+				"9BE4761E-28B3-4291-A54A-DC542D5DCC65",
+				"8CC01EF4-DC59-4016-A05C-7FBB6F7B8649",
+				"7EE8C042-81DD-42DB-A179-6925D2B35EBC",
+				"C95493BF-6246-4000-95D3-434E7136B292",
+				"20B149E1-DFF2-4B25-8144-BB7F84717886",
+				"97975DEF-6FA5-4FCA-9EFA-8A7EF79799CE",
+				"538849F2-17B1-46A0-8C1D-D127850F90D6",
+				"60B5F02D-3DAA-420A-9EB7-2AA17D4801AD",
+				"47D55ED4-3F15-4244-B824-87DD361C4807"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"3067DB0A-21A2-47FA-802F-49AC686942DC": {
+			"children": [
+				"9B0F0A6D-A31B-4979-B0B8-D04E9A3C5BC4",
+				"48EDD65F-8267-4E0D-94F2-CDE4CD82B464",
+				"84699767-420A-4BB0-9473-DF102E93BBCC",
+				"025DB439-76B7-46FA-A642-3F295EB8A85F"
+			],
+			"isa": "PBXGroup",
+			"name": "desktop",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"3B3B205F-B1C8-4462-B9D9-1719D79AED1B": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "RtMidi.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/libs/rtmidi/RtMidi.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"3F77A942-518D-47E0-A3E6-348A6CFFDC39": {
+			"fileRef": "BBE1F68B-8CA4-4F97-9079-A825DE36BB74",
+			"isa": "PBXBuildFile"
+		},
+		"42B2DBDE-C102-4CB9-8F35-1EB188E42EC5": {
+			"children": [
+				"22DACCCF-6009-4BAC-95C4-BF109CDFA44D",
+				"29DA6BA4-1F78-409A-8E51-C8FFFF4185BD",
+				"1DD9A045-D61D-464C-B9EF-019BA937CF9E"
+			],
+			"isa": "PBXGroup",
+			"name": "ofxMidi",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"47D55ED4-3F15-4244-B824-87DD361C4807": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiTypes.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiTypes.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"48EDD65F-8267-4E0D-94F2-CDE4CD82B464": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxRtMidiIn.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/desktop/ofxRtMidiIn.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"4AAE79DB-9B32-4572-83F7-F0FBF3EB5AB5": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiConstants.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiConstants.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"52C36E1C-224A-4D22-ACAF-09255A87890F": {
+			"fileRef": "96FECBCD-3F9A-47E4-A235-56DEAC690F4D",
+			"isa": "PBXBuildFile"
+		},
+		"538849F2-17B1-46A0-8C1D-D127850F90D6": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiTimecode.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiTimecode.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"5C888B4A-EF27-42A4-9338-894AAAD0B805": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "RtMidi.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/libs/rtmidi/RtMidi.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"5D68FFA7-7D08-4261-ABBB-52D96B8B37D4": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "darlingApp.h",
+			"path": "src/darlingApp.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"60B5F02D-3DAA-420A-9EB7-2AA17D4801AD": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiTimecode.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiTimecode.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"6DCFC099-5D2A-4634-BB6A-E23A4BE8667B": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiClock.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiClock.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"7D43692D-6E57-49FD-9A38-B9A0E9600092": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxBaseMidi.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxBaseMidi.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"7EE8C042-81DD-42DB-A179-6925D2B35EBC": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiMessage.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiMessage.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"84699767-420A-4BB0-9473-DF102E93BBCC": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxRtMidiOut.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/desktop/ofxRtMidiOut.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"85630C90-25D3-4375-947C-8DBC4CD32609": {
+			"fileRef": "20B149E1-DFF2-4B25-8144-BB7F84717886",
+			"isa": "PBXBuildFile"
+		},
+		"870233B9-D5E9-40AD-B5EC-A6FD18BF9246": {
+			"fileRef": "A751FC38-788E-4E92-AC1C-16D321F1C0A8",
+			"isa": "PBXBuildFile",
+			"settings": {
+				"ATTRIBUTES": [
+					"CodeSignOnCopy"
+				]
+			}
+		},
+		"8A2CBC95-C08E-453E-8726-ABFEA49D574B": {
+			"children": [
+				"3B3B205F-B1C8-4462-B9D9-1719D79AED1B",
+				"5C888B4A-EF27-42A4-9338-894AAAD0B805"
+			],
+			"isa": "PBXGroup",
+			"name": "rtmidi",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"8A4D874F-D8D1-48F7-AE03-019DFCB880E4": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiClock.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiClock.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"8CC01EF4-DC59-4016-A05C-7FBB6F7B8649": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiIn.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiIn.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9219111C-E94B-40D9-81D3-C6DB17F594BF": {
+			"fileRef": "7D43692D-6E57-49FD-9A38-B9A0E9600092",
+			"isa": "PBXBuildFile"
+		},
+		"960D1F22-7B5C-497B-A25A-5BDE19141FDA": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxBaseMidi.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxBaseMidi.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"96FECBCD-3F9A-47E4-A235-56DEAC690F4D": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidi.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidi.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"97975DEF-6FA5-4FCA-9EFA-8A7EF79799CE": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiOut.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiOut.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"99F1CB92-6D84-434B-97F1-045C8A389D84": {
+			"fileRef": "9B0F0A6D-A31B-4979-B0B8-D04E9A3C5BC4",
+			"isa": "PBXBuildFile"
+		},
+		"9B0F0A6D-A31B-4979-B0B8-D04E9A3C5BC4": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxRtMidiIn.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/desktop/ofxRtMidiIn.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9BE4761E-28B3-4291-A54A-DC542D5DCC65": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiIn.cpp",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiIn.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9CFCEE12-9DA3-49C4-A9C8-7244E96BC649": {
+			"fileRef": "7EE8C042-81DD-42DB-A179-6925D2B35EBC",
+			"isa": "PBXBuildFile"
+		},
+		"9D3C3CCB-4359-4821-BAA8-B73698C030AF": {
+			"fileRef": "A751FC38-788E-4E92-AC1C-16D321F1C0A8",
+			"isa": "PBXBuildFile"
+		},
+		"A751FC38-788E-4E92-AC1C-16D321F1C0A8": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "wrapper.framework",
+			"name": "CoreMIDI.framework",
+			"path": "/System/Library/Frameworks/CoreMIDI.framework",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"BB4B014C10F69532006C3DED": {
+			"children": [
+				"42B2DBDE-C102-4CB9-8F35-1EB188E42EC5"
+			],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons",
+			"sourceTree": "<group>"
+		},
+		"BBE1F68B-8CA4-4F97-9079-A825DE36BB74": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "darlingApp.cpp",
+			"path": "src/darlingApp.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C3A565FE-32E6-4B73-AABC-0D3EA958D045": {
+			"fileRef": "84699767-420A-4BB0-9473-DF102E93BBCC",
+			"isa": "PBXBuildFile"
+		},
+		"C95493BF-6246-4000-95D3-434E7136B292": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidiMessage.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidiMessage.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"D43AFD23-1E1E-4716-84C9-92669BD8A70F": {
+			"fileRef": "9BE4761E-28B3-4291-A54A-DC542D5DCC65",
+			"isa": "PBXBuildFile"
+		},
+		"DF607AA4-5628-4744-8807-D84EC671EA3A": {
+			"fileRef": "3B3B205F-B1C8-4462-B9D9-1719D79AED1B",
+			"isa": "PBXBuildFile"
+		},
+		"E42962A92163ECCD00A6A9E2": {
+			"alwaysOutOfDate": "1",
+			"buildActionMask": "2147483647",
+			"files": [],
+			"inputPaths": [],
+			"isa": "PBXShellScriptBuildPhase",
+			"name": "Run Script — Compile OF",
+			"outputPaths": [],
+			"runOnlyForDeploymentPostprocessing": "0",
+			"shellPath": "/bin/sh",
+			"shellScript": "echo \"💾 Compiling Openframeworks\"\nxcodebuild -project \"$OF_PATH/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj\" -target openFrameworks -configuration \"${CONFIGURATION}\"  CLANG_CXX_LANGUAGE_STANDARD=$CLANG_CXX_LANGUAGE_STANDARD MACOSX_DEPLOYMENT_TARGET=$MACOSX_DEPLOYMENT_TARGET GCC_PREPROCESSOR_DEFINITIONS=$USER_PREPROCESSOR_DEFINITIONS\n",
+			"showEnvVarsInLog": "0"
+		},
+		"E4A5B60F29BAAAE400C2D356": {
+			"buildActionMask": "2147483647",
+			"dstPath": "",
+			"dstSubfolderSpec": "6",
+			"files": [],
+			"isa": "PBXCopyFilesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B4A0A3A1720003C02F2": {
+			"children": [
+				"191CD6FA2847E21E0085CBB6",
+				"E4B6FCAD0C3E899E008CF71C",
+				"E4EB6923138AFD0F00A09F29",
+				"E4B69E1C0A3A1BDC003C02F2",
+				"191EF70929D778A400F35F26",
+				"BB4B014C10F69532006C3DED",
+				"E4B69B5B0A3A1756003C02F2"
+			],
+			"isa": "PBXGroup",
+			"sourceTree": "<group>"
+		},
+		"E4B69B4C0A3A1720003C02F2": {
+			"attributes": {
+				"LastUpgradeCheck": "0600"
+			},
+			"buildConfigurationList": "E4B69B4D0A3A1720003C02F2",
+			"compatibilityVersion": "Xcode 3.2",
+			"developmentRegion": "en",
+			"hasScannedForEncodings": "0",
+			"isa": "PBXProject",
+			"knownRegions": [
+				"en",
+				"Base"
+			],
+			"mainGroup": "E4B69B4A0A3A1720003C02F2",
+			"productRefGroup": "E4B69B4A0A3A1720003C02F2",
+			"projectDirPath": "",
+			"projectRoot": "",
+			"targets": [
+				"E4B69B5A0A3A1756003C02F2"
+			]
+		},
+		"E4B69B4D0A3A1720003C02F2": {
+			"buildConfigurations": [
+				"E4B69B4E0A3A1720003C02F2",
+				"E4B69B4F0A3A1720003C02F2"
+			],
+			"defaultConfigurationIsVisible": "0",
+			"defaultConfigurationName": "Release",
+			"isa": "XCConfigurationList"
+		},
+		"E4B69B4E0A3A1720003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"CODE_SIGN_ENTITLEMENTS": "of.entitlements",
+				"COPY_PHASE_STRIP": "NO",
+				"ENABLE_TESTABILITY": "YES",
+				"GCC_OPTIMIZATION_LEVEL": "0",
+				"GCC_WARN_UNUSED_VARIABLE": "NO",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src"
+				],
+				"OTHER_CPLUSPLUSFLAGS": "-D__MACOSX_CORE__"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Debug"
+		},
+		"E4B69B4F0A3A1720003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"CODE_SIGN_ENTITLEMENTS": "of.entitlements",
+				"COPY_PHASE_STRIP": "YES",
+				"GCC_OPTIMIZATION_LEVEL": "3",
+				"GCC_UNROLL_LOOPS": "YES",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src"
+				],
+				"OTHER_CPLUSPLUSFLAGS": "-D__MACOSX_CORE__"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Release"
+		},
+		"E4B69B580A3A1756003C02F2": {
+			"buildActionMask": "2147483647",
+			"files": [
+				"E4B69E200A3A1BDC003C02F2",
+				"E4B69E210A3A1BDC003C02F2",
+				"3F77A942-518D-47E0-A3E6-348A6CFFDC39",
+				"DF607AA4-5628-4744-8807-D84EC671EA3A",
+				"99F1CB92-6D84-434B-97F1-045C8A389D84",
+				"C3A565FE-32E6-4B73-AABC-0D3EA958D045",
+				"9219111C-E94B-40D9-81D3-C6DB17F594BF",
+				"52C36E1C-224A-4D22-ACAF-09255A87890F",
+				"1B901502-D2D9-40BC-BAA5-50A350BA867D",
+				"D43AFD23-1E1E-4716-84C9-92669BD8A70F",
+				"9CFCEE12-9DA3-49C4-A9C8-7244E96BC649",
+				"85630C90-25D3-4375-947C-8DBC4CD32609",
+				"0B6D922C-DD1B-478C-82A9-7E9C19DA8267"
+			],
+			"isa": "PBXSourcesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B590A3A1756003C02F2": {
+			"buildActionMask": "2147483647",
+			"files": [
+				"9D3C3CCB-4359-4821-BAA8-B73698C030AF"
+			],
+			"isa": "PBXFrameworksBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B5A0A3A1756003C02F2": {
+			"buildConfigurationList": "E4B69B5F0A3A1757003C02F2",
+			"buildPhases": [
+				"E42962A92163ECCD00A6A9E2",
+				"E4B69B580A3A1756003C02F2",
+				"E4B69B590A3A1756003C02F2",
+				"E4C2427710CC5ABF004149E2",
+				"E4A5B60F29BAAAE400C2D356",
+				"19B789C429E5AB4A0082E9B8"
+			],
+			"buildRules": [],
+			"dependencies": [],
+			"isa": "PBXNativeTarget",
+			"name": "Darling Midi",
+			"productName": "myOFApp",
+			"productReference": "E4B69B5B0A3A1756003C02F2",
+			"productType": "com.apple.product-type.application"
+		},
+		"E4B69B5B0A3A1756003C02F2": {
+			"explicitFileType": "wrapper.application",
+			"includeInIndex": "0",
+			"isa": "PBXFileReference",
+			"path": "Darling MidiDebug.app",
+			"sourceTree": "BUILT_PRODUCTS_DIR"
+		},
+		"E4B69B5F0A3A1757003C02F2": {
+			"buildConfigurations": [
+				"E4B69B600A3A1757003C02F2",
+				"E4B69B610A3A1757003C02F2"
+			],
+			"defaultConfigurationIsVisible": "0",
+			"defaultConfigurationName": "Release",
+			"isa": "XCConfigurationList"
+		},
+		"E4B69B600A3A1757003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"ARCHS": "$(ARCHS_STANDARD)",
+				"COPY_PHASE_STRIP": "NO",
+				"FRAMEWORK_SEARCH_PATHS": [
+					"$(inherited)",
+					"/System/Library/Frameworks"
+				],
+				"GCC_DYNAMIC_NO_PIC": "NO",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/libs",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/libs/pgmidi",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/libs/rtmidi",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/desktop",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ios"
+				],
+				"LIBRARY_SEARCH_PATHS": "$(inherited)",
+				"OTHER_LDFLAGS": [
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF_DEBUG)"
+				]
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Debug"
+		},
+		"E4B69B610A3A1757003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"ARCHS": "$(ARCHS_STANDARD)",
+				"COPY_PHASE_STRIP": "YES",
+				"FRAMEWORK_SEARCH_PATHS": [
+					"$(inherited)",
+					"/System/Library/Frameworks"
+				],
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/libs",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/libs/pgmidi",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/libs/rtmidi",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/desktop",
+					"/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ios"
+				],
+				"LIBRARY_SEARCH_PATHS": "$(inherited)",
+				"OTHER_LDFLAGS": [
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF)"
+				],
+				"baseConfigurationReference": "E4EB6923138AFD0F00A09F29"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Release"
+		},
+		"E4B69E1C0A3A1BDC003C02F2": {
+			"children": [
+				"E4B69E1D0A3A1BDC003C02F2",
+				"E4B69E1E0A3A1BDC003C02F2",
+				"E4B69E1F0A3A1BDC003C02F2",
+				"BBE1F68B-8CA4-4F97-9079-A825DE36BB74",
+				"5D68FFA7-7D08-4261-ABBB-52D96B8B37D4"
+			],
+			"isa": "PBXGroup",
+			"path": "src",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1D0A3A1BDC003C02F2": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.cpp.cpp",
+			"name": "main.cpp",
+			"path": "src/main.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1E0A3A1BDC003C02F2": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofApp.cpp",
+			"path": "src/ofApp.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1F0A3A1BDC003C02F2": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.c.h",
+			"name": "ofApp.h",
+			"path": "src/ofApp.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E200A3A1BDC003C02F2": {
+			"fileRef": "E4B69E1D0A3A1BDC003C02F2",
+			"isa": "PBXBuildFile"
+		},
+		"E4B69E210A3A1BDC003C02F2": {
+			"fileRef": "E4B69E1E0A3A1BDC003C02F2",
+			"isa": "PBXBuildFile"
+		},
+		"E4B6FCAD0C3E899E008CF71C": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.xml",
+			"path": "openFrameworks-Info.plist",
+			"sourceTree": "<group>"
+		},
+		"E4C2427710CC5ABF004149E2": {
+			"buildActionMask": "2147483647",
+			"dstPath": "",
+			"dstSubfolderSpec": "10",
+			"files": [],
+			"isa": "PBXCopyFilesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4EB6923138AFD0F00A09F29": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.xcconfig",
+			"path": "Project.xcconfig",
+			"sourceTree": "<group>"
+		},
+		"FFFCAC83-CF73-4718-AD4B-83371EB24A13": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMidi.h",
+			"path": "/Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons/ofxMidi/src/ofxMidi.h",
+			"sourceTree": "SOURCE_ROOT"
+		}
+	},
+	"openFrameworksProjectGeneratorVersion": "21",
+	"rootObject": "E4B69B4C0A3A1720003C02F2"
+}
