@@ -21,9 +21,12 @@ void ofApp::update(){
     if (midiIn.hasWaitingMessages()) {
         ofxMidiMessage message;
         midiIn.getNextMessage(message);
-        if (message.pitch == 73) darlingApp.shuffle();
-        if (message.pitch == 74) darlingApp.bigger();
-        if (message.pitch == 75) darlingApp.smaller();
+        if (message.control == 17) rotationL = message.value / 128. * TWO_PI;
+        if (message.control == 16) rotationR = message.value / 128. * TWO_PI;
+        if (message.pitch == 60) myDarlingApp.button01();
+        if (message.pitch == 61) myDarlingApp.button02();
+        if (message.pitch == 62) myDarlingApp.button03();
+        cout << message.value << ", " << message.pitch << ", " << message.control << endl;
     }
 }
 
@@ -34,7 +37,35 @@ void ofApp::draw(){
     
     auto time = ofGetElapsedTimef();
     
-    darlingApp.draw(frame, time);
+    auto unit = sqrt(frame.width * frame.height) / 120.;
+    
+    float radius = 30 * unit;
+    
+    int res = 30;
+    
+    ofPushMatrix();
+    ofTranslate(frame.getCenter() - ofPoint(radius, 0));
+    ofRotateRad(rotationL);
+    ofBeginShape();
+    for (int i = 0; i <= res; i++) {
+        float theAngle = ofMap(i, 0, res, 0, PI);
+        ofVertex(cos(theAngle) * radius, sin(theAngle) * radius);
+    }
+    ofEndShape(true);
+    ofPopMatrix();
+    
+    ofPushMatrix();
+    ofTranslate(frame.getCenter() + ofPoint(radius, 0));
+    ofRotateRad(rotationR);
+    ofBeginShape();
+    for (int i = 0; i <= res; i++) {
+        float theAngle = ofMap(i, 0, res, 0, PI);
+        ofVertex(cos(theAngle) * radius, sin(theAngle) * radius);
+    }
+    ofEndShape(true);
+    ofPopMatrix();
+    
+    //myDarlingApp.draw(frame, time);
 }
 
 //--------------------------------------------------------------
@@ -45,9 +76,9 @@ void ofApp::exit(){
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
     
-    if (key == ' ') darlingApp.shuffle();
-    if (key == OF_KEY_UP) darlingApp.bigger();
-    if (key == OF_KEY_DOWN) darlingApp.smaller();
+    if (key == ' ') myDarlingApp.button01();
+    if (key == OF_KEY_UP) myDarlingApp.button02();
+    if (key == OF_KEY_DOWN) myDarlingApp.button03();
 }
 
 //--------------------------------------------------------------

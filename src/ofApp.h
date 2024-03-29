@@ -27,7 +27,10 @@ public:
     void gotMessage(ofMessage msg) override;
 		
 private:
-    darlingApp darlingApp;
+    darlingApp myDarlingApp;
     
     ofxMidiIn midiIn;
+    
+    float rotationL = 0;
+    float rotationR = 0;
 };

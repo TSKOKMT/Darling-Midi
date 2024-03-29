@@ -23,7 +23,7 @@ void darlingApp::draw(ofRectangle frame_, float time_) {
         points.resize(count);
         terms.resize(count);
         colors.resize(count);
-        shuffle();
+        button01();
     }
     
     align(countH, countV, theSpacing);
@@ -286,7 +286,7 @@ void darlingApp::drawApp(ofPoint position_, float radius_, float rotation_, int 
 }
 
 //--------------------------------------------------------------
-void darlingApp::shuffle() {
+void darlingApp::button01() {
     
     for (int i = 0; i < ids.size(); i++) {
         ids[i] = ofRandom(20);
@@ -312,14 +312,14 @@ void darlingApp::align(int countH_, int countV_, float spacing_) {
 }
 
 //--------------------------------------------------------------
-void darlingApp::bigger() {
+void darlingApp::button02() {
     
     spacing *= sqrt(2);
     spacing = ofClamp(spacing, 3, 96);
 }
 
 //--------------------------------------------------------------
-void darlingApp::smaller() {
+void darlingApp::button03() {
     
     spacing /= sqrt(2);
     spacing = ofClamp(spacing, 3, 96);

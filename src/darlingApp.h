@@ -9,9 +9,9 @@ public:
     void draw(ofRectangle frame_, float time_);
     void align(int countH_, int countV_, float spacing_);
     
-    void shuffle();
-    void bigger();
-    void smaller();
+    void button01();
+    void button02();
+    void button03();
 
 private:
     void drawApp(ofPoint position_, float radius_, float rotation_, int id_);
